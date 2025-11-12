@@ -17,87 +17,13 @@ A modern, scalable website built using **Next.js 14**, **TypeScript**, **Tailwin
 
 ---
 
-## 🏗️ Project Structure
-
-Tamplate-Overview/
-│
-├── .husky/ # Git hooks for pre-commit checks
-├── .next/ # Next.js build output
-├── node_modules/ # Project dependencies
-├── public/ # Static assets
-│
-├── src/
-│ ├── app/
-│ │ ├── (website)/ # Main website routes
-│ │ │ ├── (auth)/ # Authentication routes
-│ │ │ │ ├── create-new-password/
-│ │ │ │ ├── create-your-account/
-│ │ │ │ ├── login/
-│ │ │ │ ├── reset-your-password/
-│ │ │ │ ├── verify-otp/
-│ │ │ │ └── layout.tsx
-│ │ │ ├── contact-us/
-│ │ │ ├── privacy-policy/
-│ │ │ ├── products/
-│ │ │ ├── terms-conditions/
-│ │ │ ├── layout.tsx
-│ │ │ └── page.tsx
-│ │ ├── api/
-│ │ │ └── auth/[...nextauth]/route.ts
-│ │ ├── globals.css
-│ │ ├── layout.tsx
-│ │ └── not-found.tsx
-│ │
-│ ├── components/
-│ │ ├── ReusableSection/
-│ │ │ ├── ContactInformation.tsx
-│ │ │ ├── GetInTouch.tsx
-│ │ │ └── Review.tsx
-│ │ ├── ui/ # Reusable UI components (shadcn)
-│ │ └── website/
-│ │ ├── Auth/
-│ │ │ ├── CreateNewPassword.tsx
-│ │ │ ├── CreateYourAccount.tsx
-│ │ │ ├── Login.tsx
-│ │ │ ├── ResetYourPassword.tsx
-│ │ │ └── VerifyOTP.tsx
-│ │ ├── Common/
-│ │ │ ├── Footer.tsx
-│ │ │ └── Navbar.tsx
-│ │ └── PageSections/
-│ │ ├── HomePage/
-│ │ ├── PrivacyPolicy/
-│ │ ├── ProductsPage/
-│ │ └── TermsConditions/
-│ │
-│ ├── hooks/ # Custom React hooks
-│ ├── lib/ # API and utility functions
-│ │ ├── api.ts
-│ │ └── utils.ts
-│ └── Providers/ # Global providers
-│ ├── MainProviders.tsx
-│ └── Provider.tsx
-│
-├── .gitignore
-├── .lintstagedrc.json
-├── commitlint.config.js
-├── components.json
-├── eslint.config.mjs
-├── next-env.d.ts
-├── next.config.ts
-├── package.json
-├── postcss.config.mjs
-├── README.md
-├── tsconfig.json
-└── tailwind.config.ts
-
 ---
 
 ## ⚙️ Setup & Installation
 
 # 1️⃣ Clone the repository
 
-git clone https://github.com/yourusername/POLSPOCH-WEBSITE.git
+git clone https://github.com/RashedulHaqueRasel1/Template-Overview-Website.git
 
 # 2️⃣ Navigate to the project
 
@@ -146,5 +72,9 @@ npx husky add .husky/pre-commit "npm run lint"
 git add .husky/pre-commit
 
 🧑‍💻 Author
+
 Rashedul Haque Rasel
 Built with ❤️ using Next.js, TypeScript, and Tailwind CSS.
+📧 [rashedulhaquerasel1@gmail.com](rashedulhaquerasel1@gmail.com)
+
+🌐 [Protfolio](https://rashedul-haque-rasel.vercel.app)
