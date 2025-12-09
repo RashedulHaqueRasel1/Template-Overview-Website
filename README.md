@@ -6,7 +6,7 @@ A modern, scalable website built using **Next.js 14**, **TypeScript**, **Tailwin
 
 ## 🚀 Tech Stack
 
-- **Framework:** [Next.js 14](https://nextjs.org/)
+- **Framework:** [Next.js 16.0.7](https://nextjs.org/)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS + Shadcn/UI
 - **Icons:** Lucide Icons
@@ -27,7 +27,7 @@ git clone https://github.com/RashedulHaqueRasel1/Template-Overview-Website.git
 
 # 2️⃣ Navigate to the project
 
-cd POLSPOCH-WEBSITE
+cd Template-Overview-Website
 
 # 3️⃣ Install dependencies
 
@@ -36,6 +36,7 @@ npm install
 # 4️⃣ Run development server
 
 npm run dev
+
 Then open http://localhost:3000 in your browser.
 
 🧩 Features
@@ -71,10 +72,13 @@ This project uses Husky and Lint-staged to enforce clean commits.
 npx husky add .husky/pre-commit "npm run lint"
 git add .husky/pre-commit
 
+--
+
 🧑‍💻 Author
 
 Rashedul Haque Rasel
-Built with ❤️ using Next.js, TypeScript, and Tailwind CSS.
-📧 [rashedulhaquerasel1@gmail.com](rashedulhaquerasel1@gmail.com)
 
+Built with ❤️ using Next.js, TypeScript, and Tailwind CSS.
+
+📧 [rashedulhaquerasel1@gmail.com](rashedulhaquerasel1@gmail.com) 
 🌐 [Protfolio](https://rashedul-haque-rasel.vercel.app)
