@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Geist, Geist_Mono, Poppins, Playfair_Display, Hind_Siliguri } from "next/font/google";
 import "./globals.css";
 import MainProviders from "@/Providers/MainProviders";
 import Provider from "@/Providers/Provider";
@@ -21,10 +21,22 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+});
+
+const hindSiliguri = Hind_Siliguri({
+  variable: "--font-hind",
+  subsets: ["bengali", "latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
 export const metadata: Metadata = {
-  title: "Hierro A Medida",
+  title: "Traditional Haat | Premium Bangladeshi Saree Brand",
   description:
-    "Design amazing digital experiences that create more happy in the world.",
+    "Traditional Haat offers authentic, elegant, and handcrafted sarees from the heart of Bangladesh. Explore our Jamdani, Tangail, and Silk collections.",
 };
 
 export default function RootLayout({
@@ -33,9 +45,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${playfair.variable} ${hindSiliguri.variable} antialiased`}
       >
         <MainProviders>
           <Provider> {children} </Provider>
